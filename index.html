@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title style="color: #00f;">~*~ ERROR 404: Tic Tac Tournament ~*~</title>
+  <style>
+     body {
+      background: url('https://img.freepik.com/premium-photo/cyberspace-background_777576-10868.jpg') fixed;
+      background-size: cover;
+      color: #00f;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    h2 {
+      font-size: 36px;
+      text-align: center;
+      text-shadow: 2px 2px 5px #ff00ff;
+      background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    #header {
+      text-align: center;
+      background-color: #f00;
+      padding: 10px;
+      margin: 20px 0;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #00f;
+      text-shadow: 2px 2px 5px #ff00ff;
+    }
+
+    #container {
+      width: 80%;
+      margin: 0 auto;
+      background: url('https://t3.ftcdn.net/jpg/02/97/03/92/360_F_297039257_rK7c5hnnF4EURybO22HiXKdZ24IavFdc.jpg') fixed;
+      background-size: cover;
+      color: #00f;
+      padding: 20px;
+      border: 2px solid #00f;
+    }
+
+    .glitch {
+      display: inline-block;
+      position: relative;
+    }
+
+    .glitch::before,
+    .glitch::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .glitch::before {
+      left: 2px;
+      text-shadow: -2px 0 #00f;
+      clip: rect(44px, 450px, 150px, 0);
+      animation: glitch-anim-1 0.3s infinite linear alternate-reverse;
+    }
+
+    .glitch::after {
+      left: -2px;
+      text-shadow: 2px 0 #ff0;
+      clip: rect(86px, 450px, 150px, 0);
+      animation: glitch-anim-2 0.3s infinite linear alternate-reverse;
+    }
+
+
+    @keyframes glitch-anim-1 {
+      0% {
+        clip: rect(77px, 9999px, 21px, 0);
+      }
+      5% {
+        clip: rect(11px, 9999px, 29px, 0);
+      }
+      10% {
+        clip: rect(3px, 9999px, 56px, 0);
+      }
+      15% {
+        clip: rect(75px, 9999px, 16px, 0);
+      }
+      20% {
+        clip: rect(27px, 9999px, 47px, 0);
+      }
+      25% {
+        clip: rect(68px, 9999px, 7px, 0);
+      }
+      30% {
+        clip: rect(25px, 9999px, 95px, 0);
+      }
+      35% {
+        clip: rect(49px, 9999px, 78px, 0);
+      }
+      40% {
+        clip: rect(28px, 9999px, 9px, 0);
+      }
+      45% {
+        clip: rect(48px, 9999px, 79px, 0);
+      }
+      50% {
+        clip: rect(38px, 9999px, 58px, 0);
+      }
+      55% {
+        clip: rect(36px, 9999px, 33px, 0);
+      }
+      60% {
+        clip: rect(90px, 9999px, 38px, 0);
+      }
+      65% {
+        clip: rect(24px, 9999px, 89px, 0);
+      }
+      70% {
+        clip: rect(92px, 9999px, 75px, 0);
+      }
+      75% {
+        clip: rect(3px, 9999px, 29px, 0);
+      }
+      80% {
+        clip: rect(54px, 9999px, 95px, 0);
+      }
+      85% {
+        clip: rect(85px, 9999px, 63px, 0);
+      }
+      90% {
+        clip: rect(48px, 9999px, 90px, 0);
+      }
+      95% {
+        clip: rect(80px, 9999px, 38px, 0);
+      }
+      100% {
+        clip: rect(7px, 9999px, 79px, 0);
+      }
+    }
+
+    @keyframes glitch-anim-2 {
+      0% {
+        clip: rect(64px, 9999px, 33px, 0);
+      }
+      5% {
+        clip: rect(54px, 9999px, 26px, 0);
+      }
+      10% {
+        clip: rect(2px, 9999px, 100px, 0);
+      }
+      15% {
+        clip: rect(45px, 9999px, 95px, 0);
+      }
+      20% {
+        clip: rect(15px, 9999px, 56px, 0);
+      }
+      25% {
+        clip: rect(31px, 9999px, 92px, 0);
+      }
+      30% {
+        clip: rect(52px, 9999px, 9px, 0);
+      }
+      35% {
+        clip: rect(47px, 9999px, 61px, 0);
+      }
+      40% {
+        clip: rect(87px, 9999px, 50px, 0);
+      }
+      45% {
+        clip: rect(23px, 9999px, 40px, 0);
+      }
+      50% {
+        clip: rect(80px, 9999px, 46px, 0);
+      }
+      55% {
+        clip: rect(5px, 9999px, 45px, 0);
+      }
+      60% {
+        clip: rect(86px, 9999px, 16px, 0);
+      }
+      65% {
+        clip: rect(4px, 9999px, 95px, 0);
+      }
+      70% {
+        clip: rect(86px, 9999px, 61px, 0);
+      }
+      75% {
+        clip: rect(38px, 9999px, 29px, 0);
+      }
+      80% {
+        clip: rect(19px, 9999px, 78px, 0);
+      }
+       85% {
+        clip: rect(77px, 9999px, 68px, 0);
+      }
+      90% {
+        clip: rect(5px, 9999px, 68px, 0);
+      }
+      95% {
+        clip: rect(80px, 9999px, 46px, 0);
+      }
+      100% {
+        clip: rect(64px, 9999px, 33px, 0);
+      }
+    }
+  .blog-post {
+      background-color: #000;
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 2px solid #00f;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .broken-link {
+      color: #f00;
+      text-decoration: line-through;
+    }
+
+    .broken-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px 0;
+    }
+
+    .broken-button {
+      background-color: #ff0000;
+      color: #000;
+      padding: 10px 20px;
+      border: 2px solid #000;
+      border-radius: 5px;
+      cursor: not-allowed;
+    }
+
+    .broken-css {
+      background-color: #00f;
+      height: 200px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+
+    .broken-css::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 110%;
+      height: 100%;
+      background-color: #f00;
+      transform: skew(-20deg);
+    }
+
+    .broken-css-text {
+      position: relative;
+      z-index: 2;
+      color: #000;
+      font-size: 24px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .glitch-effect {
+      animation: glitch-anim-3 1s infinite;
+    }
+
+    @keyframes glitch-anim-3 {
+      0% {
+        transform: translate(0);
+      }
+      25% {
+        transform: translate(2px, -2px);
+      }
+      50% {
+        transform: translate(-2px, 2px);
+      }
+      75% {
+        transform: translate(2px, 2px);
+      }
+      100% {
+        transform: translate(-2px, -2px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1 class="glitch" data-text="~*~ Tic Tac Tournament ~*~">~*~ Tic Tac Tournament ~*~</h1>
+  </div>
+
+  <div id="container" class="glitch-effect">
+    <img class="broken-image" src="fake-broken-image.jpg" alt="TOE NOT FOUND">
+    <div class="blog-post">
+      <h2 class="glitch" data-text="FREE ME FROM THIS PRISON">Wednesday December 6, 2023</h2>
+      <p>Organized by Chris Morant, Chelby Neumann, Draven Moreno, and Mason Holland</p>
+      <p>Time: 3:45 PM</p>
+      <p>Location: N building tables (in between i and L buildings)</p>
+
+      <p class="glitch" data-text="totally yep absolutely uh huh">Endorsed by Mr. Bonilla’s BHS Esports program!</p>
+
+      <p>Play Tic Tac (Toe) in an overly hype and intense competitive tournament for a potentially funny prize!</p>
+
+      <p>RULES: We are playing with competitive rules, not street rules. This is like the “Final Destination, Fox, No Items” of Tic Tac. It will be intense, it will be hype. The winners will receive a very cool prize (trust me)!</p>
+
+      <p>Format: Three Player Matches, Tournament Bracket</p>
+      <p>GUIDELINES:</p>
+      <ul>
+        <li>Players face each other 1v1v1. Player order (who is X, O, and Z) is determined by Rock Paper Scissors (Best of One).</li>
+        <li>Squares cannot be taken over more than once by each player.</li>
+        <li>There is only one winner each round-- whoever gets 2 in a row.</li>
+        <li>Good Sportsmanship</li>
+        <li>Don’t Lose</li>
+      </ul>
+
+    </div>
+
+    <!-- Intentional broken elements -->
+    <a class="broken-link" href="https://kroomba.github.io/tictac/">REPORT ERROR</a>
+
+    <button class="broken-button" onclick="alert('This button is intentionally broken.');">SUBSCRIBE TO THE NEWSLETTER</button>
+    <img src="https://media.tenor.com/wLTK-fVE75UAAAAC/dancingbaby.gif" width= "50" height= "50" alt="HELP NOT FOUND">
+
+    <div class="broken-css">
+      <div class="broken-css-text">V2hhdCdzIHRoZSBkZWFsIHdpdGggYWlybGluZSBmb29kPw==</div>
+    </div>
+    <p class="glitch" data-text="Copyright 2023 chris_roomba">Copyright 2003 chris_roomba</p>
+  </div>
+
+  <script>
+    // Intentional glitch effect using JavaScript
+    setInterval(() => {
+      document.getElementById('container').classList.toggle('glitch-effect');
+    }, 1000);
+  </script>
+</body>
+</html>
